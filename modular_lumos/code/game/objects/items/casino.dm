@@ -320,4 +320,5 @@
 	newobj.card_throw_range = sourceobj.card_throw_range
 	newobj.throw_range = newobj.card_throw_range
 	newobj.card_attack_verb = sourceobj.card_attack_verb
-	newobj.attack_verb = newobj.card_attack_ver
+	newobj.attack_verb = newobj.card_attack_ver */
+	
