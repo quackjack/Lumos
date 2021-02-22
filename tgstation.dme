@@ -3529,6 +3529,7 @@
 #include "modular_lumos\code\game\objects\items\airlock_painter.dm"
 #include "modular_lumos\code\game\objects\items\ashwalker_item.dm"
 #include "modular_lumos\code\game\objects\items\blood_donator.dm"
+#include "modular_lumos\code\game\objects\items\casino.dm"
 #include "modular_lumos\code\game\objects\items\crate_sender.dm"
 #include "modular_lumos\code\game\objects\items\customloadout.dm"
 #include "modular_lumos\code\game\objects\items\drink_containers.dm"
