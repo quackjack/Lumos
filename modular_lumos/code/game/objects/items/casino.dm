@@ -4,7 +4,6 @@
 	icon = 'modular_lumos/icons/obj/casinochips.dmi'
 	icon_state = "none"
 	w_class = WEIGHT_CLASS_TINY
-	var/list/currentstack = list()
 	var/choice = null
 	var/value = 0
 	var/chipname = null
