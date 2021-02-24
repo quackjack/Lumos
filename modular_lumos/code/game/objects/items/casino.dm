@@ -197,20 +197,19 @@
 	else
 		return ..()
 
-/obj/item/toy/cards/singlecard/apply_card_vars(obj/item/toy/cards/singlecard/newobj,obj/item/toy/cards/sourceobj)
+/obj/item/pokerchip/apply_card_vars(obj/item/pokerchip/newobj,obj/item/sourceobj)
 	..()
-	newobj.deckstyle = sourceobj.deckstyle
-	newobj.icon_state = "singlecard_down_[deckstyle]" // Without this the card is invisible until flipped. It's an ugly hack, but it works.
-	newobj.card_hitsound = sourceobj.card_hitsound
-	newobj.hitsound = newobj.card_hitsound
-	newobj.card_force = sourceobj.card_force
-	newobj.force = newobj.card_force
-	newobj.card_throwforce = sourceobj.card_throwforce
+	newobj.pilestyle = sourceobj.pilestyle
+	newobj.chip_hitsound = sourceobj.chip_hitsound
+	newobj.hitsound = newobj.chip_hitsound
+	newobj.chip_force = sourceobj.chip_force
+	newobj.force = newobj.chip_force
+	newobj.chip_throwforce = sourceobj.chip_throwforce
 	newobj.throwforce = newobj.card_throwforce
-	newobj.card_throw_speed = sourceobj.card_throw_speed
-	newobj.throw_speed = newobj.card_throw_speed
-	newobj.card_throw_range = sourceobj.card_throw_range
-	newobj.throw_range = newobj.card_throw_range
-	newobj.card_attack_verb = sourceobj.card_attack_verb
-	newobj.attack_verb = newobj.card_attack_ver 
+	newobj.chip_throw_speed = sourceobj.chip_throw_speed
+	newobj.throw_speed = newobj.chip_throw_speed
+	newobj.chip_throw_range = sourceobj.chip_throw_range
+	newobj.throw_range = newobj.chip_throw_range
+	newobj.chip_attack_verb = sourceobj.chip_attack_verb
+	newobj.attack_verb = newobj.chip_attack_ver 
 	
