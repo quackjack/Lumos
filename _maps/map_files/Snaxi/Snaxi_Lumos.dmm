@@ -790,11 +790,6 @@
 "akX" = (
 /turf/open/floor/plasteel/median/darktogrime/fullcorner,
 /area/chapel/office)
-"ale" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/structure/cable,
-/turf/open/floor/plating,
-/area/hallway/secondary/exit/departure_lounge)
 "alh" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -9204,10 +9199,6 @@
 	icon_state = "wood-broken5"
 	},
 /area/maintenance/starboard/aft)
-"cFJ" = (
-/obj/effect/turf_decal/lumos/loading_area/white,
-/turf/open/floor/plasteel/dark/side,
-/area/hallway/primary/starboard)
 "cFO" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer1{
 	dir = 4
@@ -9553,18 +9544,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/engine/atmospherics_engine)
-"cPd" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
-	dir = 4
-	},
-/obj/effect/turf_decal/lumos/loading_area/white{
-	dir = 8
-	},
-/turf/open/floor/plasteel,
-/area/hallway/primary/aft)
 "cPn" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -10847,7 +10826,6 @@
 	pixel_y = -24
 	},
 /obj/machinery/light,
-/obj/machinery/vending/kink,
 /turf/open/floor/plasteel,
 /area/crew_quarters/fitness/pool)
 "doD" = (
@@ -28404,6 +28382,13 @@
 	},
 /turf/open/floor/circuit/off,
 /area/ai_monitored/turret_protected/ai)
+"liU" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/turf/open/floor/plating,
+/area/hallway/secondary/exit/departure_lounge)
 "ljL" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 4
@@ -30452,6 +30437,18 @@
 "miu" = (
 /turf/open/openspace/icemoon,
 /area/crew_quarters/kitchen)
+"miF" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
+	dir = 4
+	},
+/obj/effect/turf_decal/lumos/loading_area/white{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/hallway/primary/aft)
 "mjl" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -34514,6 +34511,10 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/disposal)
+"nYe" = (
+/obj/effect/turf_decal/lumos/loading_area/white,
+/turf/open/floor/plasteel/dark/side,
+/area/hallway/primary/starboard)
 "nYt" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -36424,18 +36425,6 @@
 /obj/machinery/vending/cola/random,
 /turf/open/floor/wood,
 /area/bridge/meeting_room)
-"oQA" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
-	dir = 4
-	},
-/obj/effect/turf_decal/lumos/loading_area/white{
-	dir = 4
-	},
-/turf/open/floor/plasteel,
-/area/hallway/primary/aft)
 "oQE" = (
 /obj/machinery/telecomms/processor/preset_one,
 /turf/open/floor/plasteel/dark/telecomms,
@@ -40795,6 +40784,14 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/maintenance/port/fore)
+"qIC" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/disposalpipe/segment,
+/obj/effect/turf_decal/lumos/loading_area/white,
+/turf/open/floor/plasteel,
+/area/hallway/primary/port)
 "qIP" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -41866,6 +41863,18 @@
 "rfD" = (
 /turf/open/floor/pod/dark,
 /area/security/brig)
+"rfH" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
+	dir = 4
+	},
+/obj/effect/turf_decal/lumos/loading_area/white{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/hallway/primary/aft)
 "rgh" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
 	dir = 8
@@ -43303,13 +43312,6 @@
 /obj/machinery/door/firedoor/border_only,
 /turf/open/floor/plasteel/dark,
 /area/tcommsat/server)
-"rPo" = (
-/obj/structure/disposalpipe/segment,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
-/obj/effect/turf_decal/lumos/loading_area/white,
-/turf/open/floor/plasteel,
-/area/hallway/primary/port)
 "rPD" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -44915,14 +44917,6 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/bridge)
-"sCY" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/structure/disposalpipe/segment,
-/obj/effect/turf_decal/lumos/loading_area/white,
-/turf/open/floor/plasteel,
-/area/hallway/primary/port)
 "sDu" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -49445,13 +49439,6 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3,
 /turf/open/floor/wood,
 /area/bridge/meeting_room)
-"uLj" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/structure/cable{
-	icon_state = "0-8"
-	},
-/turf/open/floor/plating,
-/area/hallway/secondary/exit/departure_lounge)
 "uLk" = (
 /obj/machinery/airalarm{
 	dir = 1;
@@ -52054,6 +52041,11 @@
 	},
 /turf/open/floor/plasteel/cult,
 /area/library)
+"vRi" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/hallway/secondary/exit/departure_lounge)
 "vRZ" = (
 /turf/open/floor/plasteel/dark,
 /area/security/execution/education)
@@ -53630,6 +53622,13 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/security/brig)
+"wDE" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
+/obj/effect/turf_decal/lumos/loading_area/white,
+/turf/open/floor/plasteel,
+/area/hallway/primary/port)
 "wDI" = (
 /obj/effect/turf_decal/tile/brown{
 	dir = 1
@@ -74242,7 +74241,7 @@ wje
 etM
 oNR
 qTB
-rPo
+wDE
 mNo
 mJq
 aHe
@@ -74499,7 +74498,7 @@ wje
 ouH
 ndX
 rWZ
-sCY
+qIC
 gKt
 aFR
 vMg
@@ -93013,7 +93012,7 @@ aMx
 aQe
 sBy
 tif
-uLj
+liU
 rqE
 eAJ
 rqE
@@ -93267,7 +93266,7 @@ avT
 avT
 eyP
 uTu
-ale
+vRi
 iaO
 dnm
 iaO
@@ -94347,7 +94346,7 @@ cLD
 chp
 srk
 lBL
-cPd
+miF
 aYt
 tDn
 gEi
@@ -95118,7 +95117,7 @@ xTI
 sdM
 srk
 aao
-oQA
+rfH
 mbu
 xTw
 jSV
@@ -103228,7 +103227,7 @@ etQ
 pqj
 klo
 jPI
-rQs
+pFR
 nEI
 lGc
 aQr
@@ -103257,7 +103256,7 @@ ohS
 pqj
 jkw
 ruI
-cFJ
+nYe
 kYg
 pVW
 sBs
